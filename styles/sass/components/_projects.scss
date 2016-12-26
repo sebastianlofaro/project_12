@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+  @include large {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  };
+
+}
+
+li {
+  padding-bottom: 25px;
+  width: 100%;
+  @include large {
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+li img {
+  border: 1px solid #eee;
+}
