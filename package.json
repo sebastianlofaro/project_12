@@ -11,7 +11,9 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.3.2",
+    "gulp-livereload": "^3.8.1",
     "gulp-minify": "0.0.14",
-    "gulp-sass": "^3.0.0"
+    "gulp-sass": "^3.0.0",
+    "gulp-watch": "^4.3.11"
   }
 }
